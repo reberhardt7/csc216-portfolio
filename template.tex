@@ -1,0 +1,50 @@
+\documentclass{cs-portfolio}
+
+\portfolio{1}	% Insert the proper portfolio number (used in the title page)
+\author{Ryan Eberhardt}
+
+\begin{document}
+
+\maketitlepage
+
+% =========================================================
+% ======================= CHAPTER 1 =======================
+% =========================================================
+
+\chapter{1}
+
+\homework
+
+\problem{R-1.01}{
+	This is a problem description. Bacon ipsum dolor amet spare ribs doner pork
+	loin jerky boudin venison swine ribeye. Doner swine chicken, tongue chuck
+	fatback cupim tri-tip jerky tenderloin leberkas.
+}
+
+The \lstinline$moreBacon$ algorithm runs in $O(n \log n)$ time.
+
+\problem{C-1.02}{
+	This is a problem description. Cupim tongue rump, chicken kielbasa turkey
+	bacon beef. Salami brisket ball tip kielbasa strip steak biltong alcatra
+	tri-tip pastrami boudin.
+}
+
+\begin{lstlisting}
+System.out.println("Hello World! This is the answer to my homework.");
+\end{lstlisting}
+
+This program solves everything.
+
+\labs
+
+\problem{P-1.03}{
+	This is a problem description. Swine pork loin turducken doner filet mignon
+	pork tail jerky meatball. Cupim prosciutto jowl beef venison rump.
+}
+
+% Files are read from ./{chapternum}-{problemnum}/{filename}
+\includesrc{Bacon.java}			% Reads from ./1-P-1.03/Bacon.java
+\includesrc{FryingPan.java}		% Reads from ./1-P-1.03/FryingPan.java
+\includeout						% Reads from ./1-P-1.03/out
+
+\end{document}
